@@ -33,8 +33,8 @@ namespace CalculatorHelperTests
         [TestMethod]
         public void Substract_HappyPath()
         {
-            Assert.AreEqual(3, CalculatorLib.Division(15, 5));
-            Assert.AreEqual(3, CalculatorLib.Division(15, 5));
+            Assert.AreEqual(3, CalculatorLib.Substract(15, 10));
+            Assert.AreEqual(3, CalculatorLib.Substract(15, 10));
         }
 
         [TestMethod]
