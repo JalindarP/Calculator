@@ -27,7 +27,7 @@ namespace CalculatorHelperTests
         public void Multiplication_HappyPath()
         {
             Assert.AreEqual(75, CalculatorLib.Multiplication(15, 5));
-
+            Assert.AreEqual(45, CalculatorLib.Multiplication(15, 3));
         }
 
         [TestMethod]
