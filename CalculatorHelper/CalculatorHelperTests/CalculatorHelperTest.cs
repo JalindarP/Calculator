@@ -28,6 +28,7 @@ namespace CalculatorHelperTests
         {
             Assert.AreEqual(75, CalculatorLib.Multiplication(15, 5));
             Assert.AreEqual(45, CalculatorLib.Multiplication(15, 3));
+            Assert.AreEqual(90, CalculatorLib.Multiplication(15, 6));
         }
 
         [TestMethod]
